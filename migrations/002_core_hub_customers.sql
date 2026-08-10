@@ -1,4 +1,4 @@
--- Customers: Single Shared Identity for anyone who interacts with Veridian
+-- Customers - single shared Identity for anyone who interacts with Veridian
 CREATE TABLE customers (
     customer_id                UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     full_name                  VARCHAR(150) NOT NULL,

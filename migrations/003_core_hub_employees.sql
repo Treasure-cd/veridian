@@ -1,4 +1,4 @@
--- Employees: single shared identity for group staff, self-referencing for reporting line
+-- Employees: single shared identity for group staff
 CREATE TABLE employees (
     employee_id        UUID PRIMARY KEY DEFAULT gen_random_uuid(),
     full_name          VARCHAR(150) NOT NULL,
