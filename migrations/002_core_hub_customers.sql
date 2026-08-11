@@ -8,6 +8,5 @@ CREATE TABLE customers (
 	-- Consent flags
     consent_retail_personalisation   BOOLEAN NOT NULL DEFAULT FALSE,
     consent_financial_visibility     BOOLEAN NOT NULL DEFAULT FALSE,
-    consent_marketing                BOOLEAN NOT NULL DEFAULT FALSE,
     created_date                DATE NOT NULL DEFAULT CURRENT_DATE
 );
