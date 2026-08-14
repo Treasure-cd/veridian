@@ -1,5 +1,3 @@
--- migrations/066_wholesale_shipments_fix_destination.sql
-
 ALTER TABLE wholesale_shipments
     DROP COLUMN destination_id;
 

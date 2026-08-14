@@ -37,10 +37,8 @@ more Veridian divisions. Referenced by: Retail, Financial Services.
 | registered_country                 | CHAR(2)       | NOT NULL             | ISO code: NG, GH, KE per section Executive Summary |
 | consent_retail_personalisation     | BOOLEAN       | NOT NULL, default FALSE | governs retail's use of purchase history for personalisation (section 4.4) |
 | consent_financial_visibility        | BOOLEAN       | NOT NULL, default FALSE | governs whether VFS/exec can see this customer's cross-divisional data (section 4.4) |
-| consent_marketing                   | BOOLEAN       | NOT NULL, default FALSE | **not specified by the brief — a deliberate, documented scope addition, not a required consent category** |
 | created_date                        | DATE          | NOT NULL, default CURRENT_DATE | |
 
-**Design note:** the brief (section 4.4) specifies exactly two required consent categories (retail personalisation, financial visibility). `consent_marketing` was added independently and is flagged here as outside the brief's literal requirement.
 
 ---
 

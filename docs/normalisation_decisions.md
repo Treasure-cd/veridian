@@ -62,7 +62,7 @@ No FK from Retail/AgriCore payment
 
 ## CONSENT-GATING AS DATA MODEL, NOT JUST ACCESS CONTROL
 -   customers carries explicit boolean consent flags
-     (consent_retail_personalisation, consent_financial_visibility, consent_marketing (improvised))
+     (consent_retail_personalisation, consent_financial_visibility)
      rather than a single blanket "shareable" flag.
 
 -   This directly encodes the purpose-limitation requirement from
