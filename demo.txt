@@ -1,0 +1,17 @@
+Problem 1
+SELECT * FROM retail_supply_shortage_signal LIMIT 20;
+Problem 2
+SELECT * FROM vfs_borrower_supply_history LIMIT 20;
+SELECT * FROM vfs_borrower_supply_history 
+WHERE farm_id IN (
+  'b9686cb3-a365-4feb-a630-044e065eff8c',
+  'dd0f983d-9fa4-49f9-bb01-1460232f03b3',
+  '239b876a-e758-45cf-a2f6-601232365975'
+);
+Problem 3
+SELECT * FROM logistics_warehouse_lease_status LIMIT 20;
+Problem 4
+SELECT * FROM group_consolidated_revenue_snapshot LIMIT 30;
+
+
+EXPLAIN ANALYSE

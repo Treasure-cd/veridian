@@ -3,9 +3,9 @@ import os
 
 # Your massive file
 input_file = '/home/treasure/Desktop/veridian/synthetic_data/output/transaction_line_items.csv'
-output_prefix = '/home/treasure/Desktop/veridian/synthetic_data/output/transaction_line_items_part_'
+output_prefix = '/home/treasure/Desktop/veridian/synthetic_data/output/transaction_line_items_split_'
 
-chunk_size = 100000  # Number of rows per file
+chunk_size = 500000  # Number of rows per file
 
 with open(input_file, 'r', newline='') as infile:
     reader = csv.reader(infile)
